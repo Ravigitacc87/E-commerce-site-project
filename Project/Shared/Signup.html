@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Signup</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <form action="Signup.php" method="POST">
+    <div class="container">
+      <div class="brand-logo"></div>
+      <div class="brand-title">Registration form</div>
+      <div class="inputs">
+        <label>Email</label>
+        <input type="email" placeholder="Input Your Email" name="email" required /><br>
+        <label>password</label>
+        <input type="password" placeholder="Input Your Password" name="password1" required /><br>
+        <label>Confirm password</label>
+        <input type="password" name="password2" placeholder="Confirm Password" required /><br>
+        <label>User type</label>
+        <select name="usertype">
+          <option>--Select--</option>
+          <option value="Customer">Customer</option>
+          <option value="Vendor">Vendor</option>
+        </select><br>
+        <label>Address</label>
+        <textarea style="height: 92px;" name="address" placeholder="Type Your Address" required></textarea><br>
+        <label>Gender</label>
+        <select name="gender">
+          <option>--Select--</option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+        </select><br>
+        <button name="s1" type="submit">SIGNUP</button><br>
+        <h3>ALREADY A MEMBER ? <a class="login" href="Login.html">LOGIN HERE</a></h3>
+      </div>
+    </div>
+  </form>
+</body>
+
+</html>

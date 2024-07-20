@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>LOGIN</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <form action="Login.php" method="POST">
+    <div class="container">
+      <div class="brand-logo"></div>
+      <div class="brand-title">LOGIN FORM</div>
+      <div class="inputs">
+          <label>Email</label>
+          <input type="email" placeholder="Input Your Email" name="email" required /><br>
+          <label>password</label>
+          <input type="password" placeholder="Input Your Password" name="password1" required /><br>
+          <label>User type</label>
+          <select name="usertype">
+            <option >--Select--</option>
+            <option value="Customer">Customer</option>
+            <option value="Vendor">Vendor</option>
+          </select><br>
+          <button name="s1" type="submit">Login</button><br>
+          <h3>NOT A MEMBER ?<a href="Signup.html">SIGNUP HERE</a></h3>
+      </div>
+    </div>
+  </form>
+</body>
+
+</html>

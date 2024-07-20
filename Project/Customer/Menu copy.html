@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+        body {
+
+            background: url('../Shared/background.gif');
+        }
+
+        .navi {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 100%;
+            height: 60px;
+            background: linear-gradient(to right, grey, rgb(0, 0, 0), grey, rgb(0, 0, 0), grey);
+            border-radius: 22px;
+        }
+
+        .navi a {
+            text-decoration: none;
+        }
+
+        .but {
+            border-radius: 8px;
+            font-weight: 900;
+            font-style: oblique;
+            font-size: x-large;
+            font-family: Colonna MT;
+        }
+
+        .but:hover {
+            background-color: rgb(123, 207, 226);
+        }
+
+        .but1 {
+            border-radius: 8px;
+            font-weight: 900;
+            font-style: oblique;
+            font-size: larger;
+            font-family: Colonna MT;
+        }
+
+        .but1:hover {
+            background-color: red;
+        }
+
+        .order {
+            display: flex;
+            background-color: rgba(215, 240, 250, 0.238);
+            margin-top: 22px;
+            border-radius: 12px;
+            height: 260px;
+            width: 100%;
+        }
+
+        .pdimg {
+            height: 220px;
+            width: 250px;
+        }
+
+        .name {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 430px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navi">
+        <div>
+            <a href="Home.php"><button class="but">Products</button>
+            </a>
+            <a href="Viewcart.php"><button class="but">View Cart</button>
+            </a>
+            <a href="Trackorder.php"><button class="but">Track Orders</button>
+            </a>
+        </div>
+        <div>
+            <a href="../Shared/Logout.php"><button class="but1">Logout</button>
+            </a>
+        </div>
+    </div>
+    <div class="order">
+        <tr>
+            <td class="name">
+                <img class="pdimg" src="../Shared/images/ROG Strix G16 (2024) G614.jpg">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p class="name">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, eos. Tenetur obcaecati
+                    minus facilis consectetur nisi ut dignissimos, natus perspiciatis dicta praesentium ea corrupti
+                    nesciunt. Dolorum eos ullam voluptatibus perspiciatis.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p class="name">
+                    price of product= &#8377 25166
+                </p>
+            </td>
+        </tr>
+    </div>
+</body>
+
+</html>
